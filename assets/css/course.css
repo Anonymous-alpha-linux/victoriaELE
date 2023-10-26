@@ -1,0 +1,26 @@
+#form-content-process {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+    transition: all 400ms;
+}
+#form-content-process-show {
+    height: fit-content !important;
+    position: relative;
+    transition: all 400ms;
+}
+.xem-them {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+    font-weight: 600;
+    color: #0d6efd;
+    background-color: white;
+    width: 100%;
+}
+#form-content-process-show .xem-them {
+    background-color: unset !important;
+}
